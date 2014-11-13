@@ -2,10 +2,10 @@ A http server wrote in golang.
 =======
 
 A http server wrote in golang, for excuting shell script and return result in json format with access control.
-=======
+---
 
 explantion for control.ini:
-=======
+----
 [default]
 ;allowcmd defines the command we can use for shell script. If it reprents as all, then no limits with the command
 allowcmd = all
@@ -18,7 +18,7 @@ allowip = 127.0.0.1 10.55.38.38 10.55.38.76 10.55.30.66 10.79.80.245
 
 
 Start:
-=======
+---
 Usage of ./server:
   -c="./control.ini": Control file
   -l="./cmd_server.log": Log file
