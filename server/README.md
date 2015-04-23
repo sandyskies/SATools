@@ -45,7 +45,7 @@ go run server.go -l="/tmp/server.log" -c="./control.ini"  -s=127.0.0.1:8081 -t=2
 example:
 ---
 > 
-curl -X POST  --data-urlencode 'cmd=ls /tmp' -d "key=3b93a59d36cf4b2a194b4b3617f1f41c"  "http://127.0.0.1:8081/cmd"
+curl -X POST  --data-urlencode 'cmd=ls /tmp' -d "key=3b93a59d36cf4b2a1s"  "http://127.0.0.1:8081/cmd"
 > 
 
 {"code":0,"message":"ok","stdout":"fcitx-socket-:0\ngedit.mingjie6.3633868441\ngo-build951207863\nhsperfdata_mdm\nhsperfdata_mingjie6\nicedteaplugin-mdm-UoQVqQ\nlibgksu-WvQEdZ\nmintUpdate\norbit-mingjie6\nplugtmp\nproxy.log\npulse-PKdhtXMmr18n\nserver.log\nsni-qt_sogou-qimpanel_2559-R53OMT\nsogou-qimpanel:0.pid\nsogou-qimpanelmingjie6\nssh-4tqQyYaluIDQ\nVMwareDnD\nvmware-mingjie6\nvmware-root\n","stderr":""}
