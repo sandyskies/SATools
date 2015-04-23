@@ -16,11 +16,11 @@ allowcmd = all
 > 
 ;allowkey defines the private access key, only the person who has this key can execute the script.
 > 
-allowkey = 3b93a59d36cf4b2a194b4b3617f1f41c
+allowkey = 3b93a59d36cf4b2a1s
 > 
 ;allowip defiles the client ip which can fullfill the request.
 > 
-allowip = 127.0.0.1 10.55.38.38 10.55.38.76 10.55.30.66 10.79.80.245
+allowip = 127.0.0.1 
 > 
 
 
