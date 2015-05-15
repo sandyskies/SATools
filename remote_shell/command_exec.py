@@ -91,7 +91,7 @@ class remote_command:
 
 if __name__ == '__main__':
     #example
-    c = remote_command("./ip.txt", log_file="./test.log",threads=5, cmd='ls',user='root', pkey='123')
+    c = remote_command("./ip.txt", log_file="./test.log",threads=5, cmd='ls',user='root', passwd='123')
     c.start()
 
     
